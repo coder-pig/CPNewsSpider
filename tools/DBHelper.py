@@ -6,14 +6,16 @@ import pymysql
 
 # 新闻类
 class News:
-    def __init__(self, title, url, create_time, origin):
+    def __init__(self, title, abstract, url, create_time, category, origin):
         self.title = title
+        self.abstract = abstract
         self.url = url
         self.create_time = create_time
+        self.category = category
         self.origin = origin
 
     def to_dict(self):
-        return {'title': self.title, 'url': self.url, 'create_time': self.create_time, 'origin': self.origin}
+        return {'title': self.title, 'abstract': self.abstract, 'url': self.url, 'create_time': self.create_time, 'category': self.category, 'origin': self.origin}
 
 
 # MySQL数据库操作类
@@ -21,7 +23,7 @@ class DBHelper:
 
     def __init__(self):
         self.db = pymysql.connect('localhost', user='root', password='Jay12345', port=3306)
-        self.news_column_list = ['title', 'url', 'create_time', 'origin']
+        self.news_column_list = ['title', 'abstract', 'url', 'create_time', 'category', 'origin']
 
     # 创建数据库
     def create_db(self):
@@ -36,8 +38,10 @@ class DBHelper:
         cursor.execute("CREATE TABLE IF Not Exists news("
                        "id INT AUTO_INCREMENT PRIMARY KEY,"
                        "title TEXT NOT NULL,"
+                       "abstract TEXT,"
                        "url TEXT NOT NULL,"
                        "create_time TEXT NOT NULL,"
+                       "category TEXT NOT NULL,"
                        "origin  TEXT NOT NULL)")
         cursor.close()
 

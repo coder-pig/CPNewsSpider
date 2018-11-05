@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f362af5a-127d-443a-8f9d-96c16947bd14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spiders/PengPaiSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiders/Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiders/XHShizhenSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiders/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NewsSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewsSpider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/XinHuaShe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/DBHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/DBHelper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,9 +20,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NewsSpider$DBHelper.coverage" NAME="DBHelper Coverage Results" MODIFIED="1537349355352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/CPNewsSpider$Test.coverage" NAME="Test Coverage Results" MODIFIED="1541329301187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
     <SUITE FILE_PATH="coverage/NewsSpider$XinHuaShe.coverage" NAME="XinHuaShe Coverage Results" MODIFIED="1537406575494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/CPNewsSpider$XHShizhenSpider.coverage" NAME="XHShizhenSpider Coverage Results" MODIFIED="1541385569050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
     <SUITE FILE_PATH="coverage/NewsSpider$Test.coverage" NAME="Test Coverage Results" MODIFIED="1537325100939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/CPNewsSpider$PengPaiSpider.coverage" NAME="PengPaiSpider Coverage Results" MODIFIED="1541327669693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/CPNewsSpider$DBHelper.coverage" NAME="DBHelper Coverage Results" MODIFIED="1541210924267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/NewsSpider$TEest.coverage" NAME="TEest Coverage Results" MODIFIED="1537355032336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CPNewsSpider$XinHuaShe.coverage" NAME="XinHuaShe Coverage Results" MODIFIED="1541210929789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -76,14 +89,209 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1734572257">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key=";" value="1" />
+          <entry key="json" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="4" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="4" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="2" />
+          <entry key="py" value="2339" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="Python" value="2339" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spiders/XinHuaShe.py">
+        <entry file="file://$PROJECT_DIR$/spiders/XHShizhenSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="96">
+              <caret line="12" column="12" selection-start-line="12" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="e#18#33#0" expanded="true" />
+                <marker date="1541239365585" expanded="true" signature="530:538" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spiders/PengPaiSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="e#18#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spiders/Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1541329301175" expanded="true" signature="120:213" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spiders/test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="23" />
+              <folding>
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#h2#0;n#div#0;n#!!top" />
+                <element signature="n#p#0;n#div#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#1;n#!!top" />
+                <element signature="n#p#0;n#div#1;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#2;n#!!top" />
+                <element signature="n#p#0;n#div#2;n#!!top" />
+                <element signature="n#div#1;n#div#2;n#!!top" />
+                <element signature="n#div#3;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#3;n#!!top" />
+                <element signature="n#h2#0;n#div#3;n#!!top" />
+                <element signature="n#p#0;n#div#3;n#!!top" />
+                <element signature="n#div#1;n#div#3;n#!!top" />
+                <element signature="n#div#4;n#!!top" />
+                <element signature="n#div#0;n#div#4;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#4;n#!!top" />
+                <element signature="n#h2#0;n#div#4;n#!!top" />
+                <element signature="n#p#0;n#div#4;n#!!top" />
+                <element signature="n#div#1;n#div#4;n#!!top" />
+                <element signature="n#div#5;n#!!top" />
+                <element signature="n#div#0;n#div#5;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#5;n#!!top" />
+                <element signature="n#h2#0;n#div#5;n#!!top" />
+                <element signature="n#p#0;n#div#5;n#!!top" />
+                <element signature="n#div#1;n#div#5;n#!!top" />
+                <element signature="n#div#6;n#!!top" />
+                <element signature="n#div#0;n#div#6;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#6;n#!!top" />
+                <element signature="n#h2#0;n#div#6;n#!!top" />
+                <element signature="n#p#0;n#div#6;n#!!top" />
+                <element signature="n#div#1;n#div#6;n#!!top" />
+                <element signature="n#div#7;n#!!top" />
+                <element signature="n#div#0;n#div#7;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#7;n#!!top" />
+                <element signature="n#h2#0;n#div#7;n#!!top" />
+                <element signature="n#p#0;n#div#7;n#!!top" />
+                <element signature="n#div#1;n#div#7;n#!!top" />
+                <element signature="n#div#8;n#!!top" />
+                <element signature="n#div#0;n#div#8;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#8;n#!!top" />
+                <element signature="n#h2#0;n#div#8;n#!!top" />
+                <element signature="n#p#0;n#div#8;n#!!top" />
+                <element signature="n#div#1;n#div#8;n#!!top" />
+                <element signature="n#div#9;n#!!top" />
+                <element signature="n#div#0;n#div#9;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#9;n#!!top" />
+                <element signature="n#h2#0;n#div#9;n#!!top" />
+                <element signature="n#p#0;n#div#9;n#!!top" />
+                <element signature="n#div#1;n#div#9;n#!!top" />
+                <element signature="n#div#10;n#!!top" />
+                <element signature="n#div#0;n#div#10;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#10;n#!!top" />
+                <element signature="n#h2#0;n#div#10;n#!!top" />
+                <element signature="n#p#0;n#div#10;n#!!top" />
+                <element signature="n#div#1;n#div#10;n#!!top" />
+                <element signature="n#div#11;n#!!top" />
+                <element signature="n#div#0;n#div#11;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#11;n#!!top" />
+                <element signature="n#h2#0;n#div#11;n#!!top" />
+                <element signature="n#p#0;n#div#11;n#!!top" />
+                <element signature="n#div#1;n#div#11;n#!!top" />
+                <element signature="n#div#12;n#!!top" />
+                <element signature="n#div#0;n#div#12;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#12;n#!!top" />
+                <element signature="n#h2#0;n#div#12;n#!!top" />
+                <element signature="n#p#0;n#div#12;n#!!top" />
+                <element signature="n#div#1;n#div#12;n#!!top" />
+                <element signature="n#div#13;n#!!top" />
+                <element signature="n#div#0;n#div#13;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#13;n#!!top" />
+                <element signature="n#h2#0;n#div#13;n#!!top" />
+                <element signature="n#p#0;n#div#13;n#!!top" />
+                <element signature="n#div#1;n#div#13;n#!!top" />
+                <element signature="n#div#14;n#!!top" />
+                <element signature="n#div#0;n#div#14;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#14;n#!!top" />
+                <element signature="n#h2#0;n#div#14;n#!!top" />
+                <element signature="n#p#0;n#div#14;n#!!top" />
+                <element signature="n#div#1;n#div#14;n#!!top" />
+                <element signature="n#div#15;n#!!top" />
+                <element signature="n#div#0;n#div#15;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#15;n#!!top" />
+                <element signature="n#h2#0;n#div#15;n#!!top" />
+                <element signature="n#p#0;n#div#15;n#!!top" />
+                <element signature="n#div#1;n#div#15;n#!!top" />
+                <element signature="n#div#16;n#!!top" />
+                <element signature="n#div#0;n#div#16;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#16;n#!!top" />
+                <element signature="n#h2#0;n#div#16;n#!!top" />
+                <element signature="n#p#0;n#div#16;n#!!top" />
+                <element signature="n#div#1;n#div#16;n#!!top" />
+                <element signature="n#div#17;n#!!top" />
+                <element signature="n#div#0;n#div#17;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#17;n#!!top" />
+                <element signature="n#h2#0;n#div#17;n#!!top" />
+                <element signature="n#p#0;n#div#17;n#!!top" />
+                <element signature="n#div#1;n#div#17;n#!!top" />
+                <element signature="n#div#18;n#!!top" />
+                <element signature="n#div#0;n#div#18;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#18;n#!!top" />
+                <element signature="n#h2#0;n#div#18;n#!!top" />
+                <element signature="n#p#0;n#div#18;n#!!top" />
+                <element signature="n#div#1;n#div#18;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,11 +299,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/DBHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="1264">
+              <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
               <folding>
-                <marker date="1537428839186" expanded="true" signature="767:772" ph="..." />
-                <marker date="1537428839186" expanded="true" signature="1313:1506" ph="..." />
+                <marker date="1541218275753" expanded="true" signature="931:936" ph="..." />
+                <marker date="1541218275753" expanded="true" signature="1566:1759" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,18 +312,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="63" column="15" lean-forward="true" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+            <state relative-caret-position="1008">
+              <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="432">
-                <caret line="27" column="37" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="37" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="512">
+                <caret line="32" selection-start-line="32" selection-end-line="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -127,8 +335,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -142,6 +350,18 @@
       <find>pointer</find>
       <find>showData0</find>
       <find>快讯：根据朝韩１９日在平壤签署的《９月平壤共同宣言》，朝方表示，如果美国采取相应措施，朝鲜有意永久废弃宁边核设施。</find>
+      <find>mysql</find>
+      <find>DBHelper</find>
+      <find>print</find>
+      <find>politics_url</find>
+      <find>normal_jquery_base_url</find>
+      <find>utf-</find>
+      <find>helper</find>
+      <find>abstract</find>
+      <find>2597804,2597335,2596843,2591107</find>
+      <find>time</find>
+      <find>href</find>
+      <find>newsDetail_forward_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,14 +372,18 @@
       <list>
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/Cus.html" />
-        <option value="$PROJECT_DIR$/spiders/Test.py" />
         <option value="$PROJECT_DIR$/spiders/DBHelper.py" />
         <option value="$PROJECT_DIR$/TEest.py" />
-        <option value="$PROJECT_DIR$/spiders/XinHuaShe.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Test.html" />
-        <option value="$PROJECT_DIR$/tools/DBHelper.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/spiders/XinHuaShe.py" />
+        <option value="$PROJECT_DIR$/tools/DBHelper.py" />
+        <option value="$PROJECT_DIR$/Test.json" />
+        <option value="$PROJECT_DIR$/spiders/XHShizhenSpider.py" />
+        <option value="$PROJECT_DIR$/spiders/PengPaiSpider.py" />
+        <option value="$PROJECT_DIR$/spiders/test.xml" />
+        <option value="$PROJECT_DIR$/spiders/Test.py" />
       </list>
     </option>
   </component>
@@ -170,10 +394,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="321" />
-    <option name="y" value="330" />
-    <option name="width" value="1988" />
-    <option name="height" value="980" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1300" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -186,22 +410,22 @@
         <subPane>
           <expand>
             <path>
-              <item name="NewsSpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="CPNewsSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CPNewsSpider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="NewsSpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="CPNewsSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CPNewsSpider" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="NewsSpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="CPNewsSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CPNewsSpider" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="NewsSpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="CPNewsSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CPNewsSpider" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -213,7 +437,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Book" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -242,7 +466,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.XinHuaShe">
+  <component name="RunManager" selected="Python.XHShizhenSpider">
     <configuration name="DBHelper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsSpider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,7 +489,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TEest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PengPaiSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsSpider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,12 +497,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/PengPaiSpider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,6 +525,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XHShizhenSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewsSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/XHShizhenSpider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,16 +579,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.XinHuaShe" />
-      <item itemvalue="Python.Test" />
       <item itemvalue="Python.DBHelper" />
-      <item itemvalue="Python.TEest" />
+      <item itemvalue="Python.XHShizhenSpider" />
+      <item itemvalue="Python.PengPaiSpider" />
+      <item itemvalue="Python.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.XinHuaShe" />
-        <item itemvalue="Python.TEest" />
-        <item itemvalue="Python.DBHelper" />
+        <item itemvalue="Python.XHShizhenSpider" />
         <item itemvalue="Python.Test" />
+        <item itemvalue="Python.PengPaiSpider" />
+        <item itemvalue="Python.XinHuaShe" />
+        <item itemvalue="Python.DBHelper" />
       </list>
     </recent_temporary>
   </component>
@@ -360,15 +608,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="265" width="1589" height="784" extended-state="0" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13128674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18313374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2826962" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993964" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31923464" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -376,7 +624,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33199194" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35347432" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -393,9 +641,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cursor.ico" />
-    <entry file="file://$PROJECT_DIR$/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -405,68 +650,198 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEest.py" />
+    <entry file="file://$PROJECT_DIR$/Test.html" />
+    <entry file="file://$PROJECT_DIR$/;" />
+    <entry file="file://$PROJECT_DIR$/res/head_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/XinHuaShe.py" />
+    <entry file="file://$PROJECT_DIR$/Test.json" />
+    <entry file="file://$PROJECT_DIR$/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/XHShizhenSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="12" selection-start-line="12" selection-end-line="12" selection-end-column="12" />
           <folding>
-            <element signature="e#129#144#0" expanded="true" />
+            <element signature="e#18#33#0" expanded="true" />
+            <marker date="1541239365585" expanded="true" signature="530:538" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/Test.py" />
-    <entry file="file://$PROJECT_DIR$/tools/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEest.py">
+    <entry file="file://$PROJECT_DIR$/spiders/PengPaiSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="384">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#18#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/head_icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/spiders/test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="63" column="15" lean-forward="true" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/XinHuaShe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="144">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#h2#0;n#div#0;n#!!top" />
+            <element signature="n#p#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#1;n#!!top" />
+            <element signature="n#p#0;n#div#1;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#2;n#!!top" />
+            <element signature="n#p#0;n#div#2;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#!!top" />
+            <element signature="n#div#3;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#3;n#!!top" />
+            <element signature="n#h2#0;n#div#3;n#!!top" />
+            <element signature="n#p#0;n#div#3;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#!!top" />
+            <element signature="n#div#4;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#4;n#!!top" />
+            <element signature="n#h2#0;n#div#4;n#!!top" />
+            <element signature="n#p#0;n#div#4;n#!!top" />
+            <element signature="n#div#1;n#div#4;n#!!top" />
+            <element signature="n#div#5;n#!!top" />
+            <element signature="n#div#0;n#div#5;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#5;n#!!top" />
+            <element signature="n#h2#0;n#div#5;n#!!top" />
+            <element signature="n#p#0;n#div#5;n#!!top" />
+            <element signature="n#div#1;n#div#5;n#!!top" />
+            <element signature="n#div#6;n#!!top" />
+            <element signature="n#div#0;n#div#6;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#6;n#!!top" />
+            <element signature="n#h2#0;n#div#6;n#!!top" />
+            <element signature="n#p#0;n#div#6;n#!!top" />
+            <element signature="n#div#1;n#div#6;n#!!top" />
+            <element signature="n#div#7;n#!!top" />
+            <element signature="n#div#0;n#div#7;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#7;n#!!top" />
+            <element signature="n#h2#0;n#div#7;n#!!top" />
+            <element signature="n#p#0;n#div#7;n#!!top" />
+            <element signature="n#div#1;n#div#7;n#!!top" />
+            <element signature="n#div#8;n#!!top" />
+            <element signature="n#div#0;n#div#8;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#8;n#!!top" />
+            <element signature="n#h2#0;n#div#8;n#!!top" />
+            <element signature="n#p#0;n#div#8;n#!!top" />
+            <element signature="n#div#1;n#div#8;n#!!top" />
+            <element signature="n#div#9;n#!!top" />
+            <element signature="n#div#0;n#div#9;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#9;n#!!top" />
+            <element signature="n#h2#0;n#div#9;n#!!top" />
+            <element signature="n#p#0;n#div#9;n#!!top" />
+            <element signature="n#div#1;n#div#9;n#!!top" />
+            <element signature="n#div#10;n#!!top" />
+            <element signature="n#div#0;n#div#10;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#10;n#!!top" />
+            <element signature="n#h2#0;n#div#10;n#!!top" />
+            <element signature="n#p#0;n#div#10;n#!!top" />
+            <element signature="n#div#1;n#div#10;n#!!top" />
+            <element signature="n#div#11;n#!!top" />
+            <element signature="n#div#0;n#div#11;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#11;n#!!top" />
+            <element signature="n#h2#0;n#div#11;n#!!top" />
+            <element signature="n#p#0;n#div#11;n#!!top" />
+            <element signature="n#div#1;n#div#11;n#!!top" />
+            <element signature="n#div#12;n#!!top" />
+            <element signature="n#div#0;n#div#12;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#12;n#!!top" />
+            <element signature="n#h2#0;n#div#12;n#!!top" />
+            <element signature="n#p#0;n#div#12;n#!!top" />
+            <element signature="n#div#1;n#div#12;n#!!top" />
+            <element signature="n#div#13;n#!!top" />
+            <element signature="n#div#0;n#div#13;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#13;n#!!top" />
+            <element signature="n#h2#0;n#div#13;n#!!top" />
+            <element signature="n#p#0;n#div#13;n#!!top" />
+            <element signature="n#div#1;n#div#13;n#!!top" />
+            <element signature="n#div#14;n#!!top" />
+            <element signature="n#div#0;n#div#14;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#14;n#!!top" />
+            <element signature="n#h2#0;n#div#14;n#!!top" />
+            <element signature="n#p#0;n#div#14;n#!!top" />
+            <element signature="n#div#1;n#div#14;n#!!top" />
+            <element signature="n#div#15;n#!!top" />
+            <element signature="n#div#0;n#div#15;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#15;n#!!top" />
+            <element signature="n#h2#0;n#div#15;n#!!top" />
+            <element signature="n#p#0;n#div#15;n#!!top" />
+            <element signature="n#div#1;n#div#15;n#!!top" />
+            <element signature="n#div#16;n#!!top" />
+            <element signature="n#div#0;n#div#16;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#16;n#!!top" />
+            <element signature="n#h2#0;n#div#16;n#!!top" />
+            <element signature="n#p#0;n#div#16;n#!!top" />
+            <element signature="n#div#1;n#div#16;n#!!top" />
+            <element signature="n#div#17;n#!!top" />
+            <element signature="n#div#0;n#div#17;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#17;n#!!top" />
+            <element signature="n#h2#0;n#div#17;n#!!top" />
+            <element signature="n#p#0;n#div#17;n#!!top" />
+            <element signature="n#div#1;n#div#17;n#!!top" />
+            <element signature="n#div#18;n#!!top" />
+            <element signature="n#div#0;n#div#18;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#18;n#!!top" />
+            <element signature="n#h2#0;n#div#18;n#!!top" />
+            <element signature="n#p#0;n#div#18;n#!!top" />
+            <element signature="n#div#1;n#div#18;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/DBHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="1264">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
           <folding>
-            <marker date="1537428839186" expanded="true" signature="767:772" ph="..." />
-            <marker date="1537428839186" expanded="true" signature="1313:1506" ph="..." />
+            <marker date="1541218275753" expanded="true" signature="931:936" ph="..." />
+            <marker date="1541218275753" expanded="true" signature="1566:1759" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1008">
+          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="27" column="37" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="37" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="512">
+            <caret line="32" selection-start-line="32" selection-end-line="32" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1541329301175" expanded="true" signature="120:213" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
